@@ -1,17 +1,17 @@
 # claudelight
 
-Control a Tuya smart light to show Claude Code status. Your light changes color when Claude is thinking, running tools, asking a question, or encounters an error — and turns off when it's done.
+Control a Tuya smart light to show Claude Code status. Your light changes color when Claude is thinking, running tools, asking a question, or encounters an error — and glows a warm dim yellow when idle.
 
 ## Colors
 
 | State | Color |
 |-------|-------|
-| Thinking | Blue |
-| Running | Green |
+| Thinking | Purple |
+| Running | Blue |
 | Question | Yellow |
-| Success | Cyan |
+| Success | Green |
 | Error | Red |
-| Done | Light Yellow |
+| Done | Warm Yellow (dim) |
 
 ## Install
 
@@ -73,10 +73,10 @@ This adds hooks to `~/.claude/settings.json` so Claude Code automatically trigge
 ## Manual usage
 
 ```bash
-claude-light thinking   # Blue
-claude-light running    # Green
+claude-light thinking   # Purple
+claude-light running    # Blue
 claude-light question   # Yellow
-claude-light success    # Cyan
+claude-light success    # Green
 claude-light error      # Red
-claude-light done       # Light yellow (idle)
+claude-light done       # Warm yellow (dim)
 ```
