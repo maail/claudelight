@@ -1,0 +1,25 @@
+{
+  "name": "claudelight",
+  "version": "1.0.0",
+  "description": "Control a Tuya smart light to show Claude Code status — thinking, running, error, and more",
+  "keywords": ["claude", "claude-code", "tuya", "smart-light", "status", "cli"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maail/claudelight"
+  },
+  "bin": {
+    "claude-light": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "light.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "tuyapi": "^7.5.1"
+  }
+}
