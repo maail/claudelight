@@ -6,7 +6,7 @@ const DEFAULT_COLORS = {
   question: "003203e803e8",
   success: "007803e803e8",
   error: "000003e803e8",
-  done: "003c03e80190",
+  done: "002303e8012c",
 };
 
 async function setDeviceState(device, state, color) {
